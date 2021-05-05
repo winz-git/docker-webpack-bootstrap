@@ -1,0 +1,43 @@
+{
+  "name": "docker-webpack-bootstrap",
+  "version": "1.0.0",
+  "description": "Docker, Webpack, jQuery and Bootstrap 4",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winz-git/docker-webpack-bootstrap.git"
+  },
+  "keywords": [
+    "Docker",
+    "Webpack",
+    "Bootstrap",
+    "jQuery"
+  ],
+  "author": "Winston B. Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winz-git/docker-webpack-bootstrap/issues"
+  },
+  "homepage": "https://github.com/winz-git/docker-webpack-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^5.2.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
