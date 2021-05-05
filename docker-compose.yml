@@ -5,13 +5,13 @@ services:
   my-project:
     container_name: my-project
     build:
+      context: ./
       dockerfile: Dockerfile
       args:
         NODE_ENV: ${NODE_ENV}
     volumes:
-      - ./src:/usr/share/nginx/html
+      - ./dist:/usr/share/nginx/html
     environment:
       - NODE_ENV=${NODE_ENV}
-      - SETTING_ENV=development
     ports:
       - '8080:80'
